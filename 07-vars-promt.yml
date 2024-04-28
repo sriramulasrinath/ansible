@@ -2,11 +2,11 @@
   hosts: loacalhost
   vars_prompt:
   - name: USERNAME
-    promt: Please enter your USERNAME
+    prompt: Please enter your USERNAME
     private: false
 
   - name: PASSWORD
-    promt: Please enter your Password
+    prompt: Please enter your Password
     private: true
   tasks: 
   - name: print information 
