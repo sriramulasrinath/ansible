@@ -5,5 +5,5 @@
   tasks:
   - name: print override information
     ansible.builtin.debug:
-      msg: "Hi we are learning {{Course}} trainer {{Trainer}} Duration {{Duration}}"
+      msg: "Hi {{Name}} Good {{Wishes}}"
 
