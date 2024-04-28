@@ -1,6 +1,6 @@
 - name: vars from promt
   hosts: loacalhost
-  vars_promt:
+  vars_prompt:
   - name: USERNAME
     promt: Please enter your USERNAME
     private: false
