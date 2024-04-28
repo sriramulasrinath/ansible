@@ -10,9 +10,9 @@
     vars:
       Course: "Devops"
     ansible.builtin.debug:
-      msg: "Hi we are learning {{COurse}} trainer {{Trainer}} Duration {{Duraion}}"
+      msg: "Hi we are learning {{Course}} trainer {{Trainer}} Duration {{Duraion}}"
   
   - name: print override insformation
     ansible.builtin.debug:
-      msg: "Hi we are learning {{COurse}} trainer {{Trainer}} Duration {{Duraion}}"
+      msg: "Hi we are learning {{Course}} trainer {{Trainer}} Duration {{Duraion}}"
   
