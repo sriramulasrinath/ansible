@@ -3,4 +3,9 @@
   become: yes
   vars:
     Course: "Devops"
-    
+    trainer: "Siva"
+    Duration: "120hrs"
+  tasks:
+  - name: print the information
+    ansible.builtin.debug:
+     msg: "Hi, we are learing {{Course}}, From Trainer{{trainer}}, Duration is {{Duratuon}}"
