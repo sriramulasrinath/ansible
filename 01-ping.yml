@@ -1,5 +1,5 @@
 - name: ping the server
-  hosts: web
+  hosts: localhost
   become: yes
   tasks:
   - name: pinging the server
