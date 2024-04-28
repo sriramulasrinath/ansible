@@ -1,5 +1,5 @@
 - name: vars from promt
-  hosts: loacalhost
+  hosts: localhost
   vars_prompt:
   - name: USERNAME
     prompt: Please enter your USERNAME
