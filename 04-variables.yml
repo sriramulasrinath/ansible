@@ -1,0 +1,6 @@
+- name: variable
+  hosts: localhost
+  become: yes
+  vars:
+    Course: "Devops"
+    
