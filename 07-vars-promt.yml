@@ -1,0 +1,16 @@
+- name: vars from promt
+  hosts: loacalhost
+  vars_promt:
+  - name: USERNAME
+    promt: Please enter your USERNAME
+    private: false
+
+  - name: PASSWORD
+    promt: Please enter your Password
+    private: true
+  tasks: 
+  - name: print information 
+    ansible.builtin.debug:
+      msg: "Hi,Username: {{USERNAME}}. password is: {{PASSWORD}}"
+  
+
