@@ -3,6 +3,6 @@
   tasks:
   - name: print information
     vars: 
-      Dinner-timings: "12:20PM IST"
+      Dinner_timings: "12:20PM IST"
     ansible.builtin.debug:
-      msg: "Hi {{Name}} Good {{Wishes}} Dinner {{Dinner-timings}}"
+      msg: "Hi {{Name}} Good {{Wishes}} Dinner {{Dinner_timings}}"
