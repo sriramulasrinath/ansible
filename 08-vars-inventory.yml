@@ -2,7 +2,5 @@
   hosts: localhost
   tasks:
   - name: print information
-    vars: 
-      Dinner_timings: "9:20PM IST"
     ansible.builtin.debug:
       msg: "Hi {{Name}} Good {{Wishes}} Dinner {{Dinner_timings}}"
