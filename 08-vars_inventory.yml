@@ -1,0 +1,8 @@
+- name: variables from inventory
+  hosts: localhost
+  tasks:
+  - name: print information
+    vars: 
+      Dinner-timings: "12:20PM IST"
+    ansible.builtin.debug:
+      msg: "Hi {{Name}} Good {{Wishes}} Dinner {{Dinner-timings}}"
