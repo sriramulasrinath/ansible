@@ -1,7 +1,7 @@
 - name: check number
   hosts: localhost
   vars:
-    - number: 10
+    - number: 5
   tasks:
   - name: number is less than 10
     ansible.builtin.debug:
