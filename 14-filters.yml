@@ -23,5 +23,5 @@
     ansible.builtin.debug:
       msg: "{{greeting | lower}}"
 
-- name: 
+
 
