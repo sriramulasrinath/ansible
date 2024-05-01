@@ -25,10 +25,12 @@
 
 - name: remove duplicates
   hosts: localhost 
-  vars:
-    number: [1, 2, 3, 3, 4, 4, 5,]
+  vars_prompt:
+  - name : number 
+    prompt: please enter the numbers
+    private: false
   tasks:
   - name: remove duplicates 
     ansible.builtin.debug:
-      msg: "{{ number | unique }}"
+      msg: "{{ name | unique }}"
 
